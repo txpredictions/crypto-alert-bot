@@ -8,9 +8,9 @@ from telegram.ext import (
 )
 from dotenv import load_dotenv
 
-from app.prices import get_price
-from app.alerts import add_alert, load_alerts, delete_alert
-from app.scheduler import alert_checker
+from prices import get_price
+from alerts import add_alert, load_alerts, delete_alert
+from scheduler import alert_checker
 
 load_dotenv()
 
