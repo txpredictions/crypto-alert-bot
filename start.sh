@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-python -m app.main
+python3 -m app.main
